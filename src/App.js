@@ -1,22 +1,13 @@
 import React from "react";
-import {
-  Alert,
-  Box,
-  Button,
-  Card,
-  Chip,
-  Container,
-  Input,
-  Modal,
-  ProgressBar,
-  Text,
-} from "retro-react";
-import TextBox from "./components/Box";
-
+import { Container, NavLogo, NavItem, Navbar, Text } from "retro-react";
+import PageContent from "./components/PageContent";
+import TextBox from "./components/TextBox";
 const App = () => {
   return (
     <div>
-      <TextBox></TextBox>
+      <Container fluid sx={{}}>
+        <TextBox />
+      </Container>
     </div>
   );
 };

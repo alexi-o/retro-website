@@ -9,6 +9,7 @@ const TextBox = () => {
           alignItems: "center",
           display: "flex",
           justifyContent: "center",
+          height: "100vh",
         }}
       >
         <Card
@@ -16,17 +17,24 @@ const TextBox = () => {
           color="primary"
           header={
             <Text align="center" variant="h3">
-              Greetings, mortals
+              Greetings, mortal
             </Text>
           }
-          image="https://picsum.photos/500/200"
+          image="https://picsum.photos/500/300"
           pattern="noise"
           sx={{
-            maxHeight: "500px",
+            maxHeight: "auto",
             maxWidth: "500px",
           }}
         >
-          <Text variant="paragraph">I'm Alexi. Thank you for stopping by.</Text>
+          <Text variant="paragraph">I'm Alexi O'Hearn.</Text>
+          <Text variant="paragraph">
+            <br />I do software development.
+          </Text>
+          <Text variant="paragraph">
+            <br />
+            Let me know if you want to work together.
+          </Text>
         </Card>
       </Box>
     </div>
